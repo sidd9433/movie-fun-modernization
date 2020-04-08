@@ -46,4 +46,10 @@ public class HomeController {
 
         return "setup";
     }
+
+    @GetMapping("/moviefun")
+    public String moviefun(Map<String, Object> model) {
+        model.put("movies", moviesBean.getMovies());
+        return "moviefun";
+    }
 }

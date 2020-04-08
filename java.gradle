@@ -1,0 +1,15 @@
+apply plugin: "java"
+buildscript {
+    //...
+    ext {
+        springBootVersion = "2.0.6.RELEASE"
+        springVersion = "5.0.10.RELEASE"
+    }
+    //...
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
