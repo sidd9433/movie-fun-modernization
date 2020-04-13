@@ -11,9 +11,9 @@ logging.level:
   org.superbiz.moviefun: DEBUG
 
 s3:
-  accessKey: <access key id>
-  secretKey: <secret access key>
-  bucketName: <name of the bucket>
+  accessKey: AAAAAAAAA
+  secretKey: SSSSSSSSS
+  bucketName: moviefun
 
 albums:
   url: //album-service/albums
